@@ -1,4 +1,4 @@
-## 社区 {#community}
+## Community {#community}
 The StoneDB community is comprised of users, contributors, and culture that unite our community and inspire new ideas, collaboration, and mutual learning. Our open-source community files issues and pull requests, attends events, advocates for greater adoption of  StoneDB, and makes many other valuable contributions. 
 
 Read on to learn how you can get involved and become part of this amazing community.
