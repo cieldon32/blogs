@@ -13,11 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: cd website
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          cache: yarn
+      - run: cd website
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build website
