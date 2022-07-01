@@ -12,8 +12,8 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - run: cd website
       - uses: actions/checkout@v2
+      - run: cd website
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
