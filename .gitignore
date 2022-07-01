@@ -1,15 +1,17 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+node_modules
 /.pnp
 .pnp.js
 
 # testing
-/coverage
+coverage
 
 # production
-/build
+build
+.docusaurus
+.cache-loader
 
 # misc
 .DS_Store
@@ -21,3 +23,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+website/netlifyDeployPreview/*
+website/changelog
+!website/netlifyDeployPreview/index.html
+!website/netlifyDeployPreview/_redirects
+
+website/_dogfooding/_swizzle_theme_tests
+
+website/i18n/**/*
