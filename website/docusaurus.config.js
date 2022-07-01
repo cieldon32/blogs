@@ -14,7 +14,7 @@ const isDeployPreview =
 const config = {
   title: 'StoneDB',
   tagline: 'StoneDB',
-  url: 'https://xiayunCYHuameow.io',
+  url: 'https://cieldon32.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
